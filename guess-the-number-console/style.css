@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
 body, body * {
     margin: 0;
     box-sizing: border-box;
@@ -6,8 +8,10 @@ body, body * {
 
 
 body {
-    background-color: lightslategrey;
+    background-color: lightsteelblue;
     min-height: 100vh;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
 }
 
 .flex-center {
@@ -16,4 +20,17 @@ body {
     justify-content: center;
     align-items: center;
 
+}
+
+h1 {
+    font-size: 96px;
+}
+
+p span {
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    border: solid 2px white;
+    border-radius: 16px ;
+    background-color: #fff3;
+    padding: 16px;
 }

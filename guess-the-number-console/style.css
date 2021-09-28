@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;500&family=Roboto+Condensed:wght@300;400;700&display=swap');
 
 body, body * {
     margin: 0;
@@ -10,7 +10,7 @@ body, body * {
 body {
     background-color: lightsteelblue;
     min-height: 100vh;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
 }
 

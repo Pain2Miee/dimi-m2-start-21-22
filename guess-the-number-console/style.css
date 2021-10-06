@@ -34,3 +34,17 @@ p span {
     background-color: #fff3;
     padding: 16px;
 }
+
+.bounce {
+  animation: bounce-anim 1s linear;
+}
+
+@keyframes bounce-anim {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(100%);
+  }
+}

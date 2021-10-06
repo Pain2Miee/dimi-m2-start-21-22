@@ -21,17 +21,17 @@ const submit = (x) => {
   } else if (x < mysteryNumber) {
     console.log('Too small.')
     document.body.innerHTML = '<h1 class="bounce">Too small.</h1>'
-    document.body.style.backgroundColor = '#8e7cdb'
+    document.body.style.backgroundColor = '#00e8ff'
 
   } else if (x > mysteryNumber) {
     console.log('Too big.')
     document.body.innerHTML = '<h1 class="bounce">Too big.</h1>'
-    document.body.style.backgroundColor = '#db7cb5'
+    document.body.style.backgroundColor = '#ff005f'
 
   } else if (x == mysteryNumber) {
     console.log('Hurrah!')
     document.body.innerHTML = '<h1 class="bounce">Hurrah!</h1>'
-    document.body.style.backgroundColor = '#97ffe7'
+    document.body.style.backgroundColor = '#bcff37'
   }
 }
 
